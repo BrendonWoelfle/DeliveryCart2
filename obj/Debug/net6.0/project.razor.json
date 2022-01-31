@@ -16333,6 +16333,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Orders\\Cust.cshtml",
+      "TargetPath": "Pages\\Orders\\Cust.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Orders\\Delete.cshtml",
       "TargetPath": "Pages\\Orders\\Delete.cshtml",
       "FileKind": "mvc"

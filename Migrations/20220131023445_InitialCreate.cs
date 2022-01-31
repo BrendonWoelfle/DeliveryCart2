@@ -42,6 +42,7 @@ namespace DeliveryCart2.Migrations
                     deliveryInfo = table.Column<int>(type: "INTEGER", nullable: false),
                     Discriminator = table.Column<string>(type: "TEXT", nullable: false),
                     ManagerID = table.Column<int>(type: "INTEGER", nullable: true),
+                    name = table.Column<string>(type: "TEXT", nullable: true),
                     pwd = table.Column<string>(type: "TEXT", nullable: true),
                     UserID = table.Column<int>(type: "INTEGER", nullable: false),
                     FirstName = table.Column<string>(type: "TEXT", nullable: false),

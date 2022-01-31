@@ -251,6 +251,10 @@ namespace DeliveryCart2.Migrations
                     b.Property<int>("ManagerID")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("pwd")
                         .IsRequired()
                         .HasColumnType("TEXT");

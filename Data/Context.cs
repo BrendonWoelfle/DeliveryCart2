@@ -15,6 +15,7 @@ using Deliverycart2.Models;
 
         public DbSet<Deliverycart2.Models.Item> Item { get; set; }
         public DbSet<Deliverycart2.Models.Order> Order { get; set; }
+        public DbSet<Deliverycart2.Models.Customer> Customer { get; set; }
         public DbSet<Deliverycart2.Models.Vendor> Vendor { get; set; }
         public DbSet<Deliverycart2.Models.Manager> Manager { get; set; }
         public DbSet<Deliverycart2.Models.Shopper> Shopper { get; set; }

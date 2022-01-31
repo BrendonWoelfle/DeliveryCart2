@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DeliveryCart2.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220131015527_InitialCreate")]
+    [Migration("20220131023445_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -252,6 +252,10 @@ namespace DeliveryCart2.Migrations
 
                     b.Property<int>("ManagerID")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("pwd")
                         .IsRequired()
