@@ -21,13 +21,11 @@ namespace DeliveryCart2.Pages_Orders
 
         public IActionResult OnGet()
         {
-        ViewData["CustomerID"] = new SelectList(_context.Set<Customer>(), "CustomerID", "CustomerID");
-        ViewData["ItemID"] = new SelectList(_context.Set<Item>(), "ItemID", "ItemID");
             return Page();
         }
 
         [BindProperty]
-        public Order Order { get; set; }
+        public Item Item { get; set; }
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
@@ -37,7 +35,7 @@ namespace DeliveryCart2.Pages_Orders
                 return Page();
             }
 
-            _context.Order.Add(Order);
+            _context.Item.Add(Item);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

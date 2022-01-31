@@ -7,27 +7,27 @@
 
 <h1>Edit</h1>
 
-<h4>Order</h4>
+<h4>Item</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Order.OrderID" />
+            <input type="hidden" asp-for="Item.ItemID" />
             <div class="form-group">
-                <label asp-for="Order.CustomerID" class="control-label"></label>
-                <select asp-for="Order.CustomerID" class="form-control" asp-items="ViewBag.CustomerID"></select>
-                <span asp-validation-for="Order.CustomerID" class="text-danger"></span>
+                <label asp-for="Item.OrderID" class="control-label"></label>
+                <input asp-for="Item.OrderID" class="form-control" />
+                <span asp-validation-for="Item.OrderID" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Order.ItemID" class="control-label"></label>
-                <select asp-for="Order.ItemID" class="form-control" asp-items="ViewBag.ItemID"></select>
-                <span asp-validation-for="Order.ItemID" class="text-danger"></span>
+                <label asp-for="Item.itemQty" class="control-label"></label>
+                <input asp-for="Item.itemQty" class="form-control" />
+                <span asp-validation-for="Item.itemQty" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Order.Qty" class="control-label"></label>
-                <input asp-for="Order.Qty" class="form-control" />
-                <span asp-validation-for="Order.Qty" class="text-danger"></span>
+                <label asp-for="Item.itemName" class="control-label"></label>
+                <input asp-for="Item.itemName" class="form-control" />
+                <span asp-validation-for="Item.itemName" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

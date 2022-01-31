@@ -19,13 +19,11 @@ namespace DeliveryCart2.Pages_Orders
             _context = context;
         }
 
-        public IList<Order> Order { get;set; }
+        public IList<Item> Item { get;set; }
 
         public async Task OnGetAsync()
         {
-            Order = await _context.Order
-                .Include(o => o.Customer)
-                .Include(o => o.Item).ToListAsync();
+            Item = await _context.Item.ToListAsync();
         }
     }
 }

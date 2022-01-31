@@ -21,7 +21,7 @@ namespace DeliveryCart2.Pages_Orders
         }
 
         [BindProperty]
-        public Order Order { get; set; }
+        public Item Item { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -30,16 +30,12 @@ namespace DeliveryCart2.Pages_Orders
                 return NotFound();
             }
 
-            Order = await _context.Order
-                .Include(o => o.Customer)
-                .Include(o => o.Item).FirstOrDefaultAsync(m => m.OrderID == id);
+            Item = await _context.Item.FirstOrDefaultAsync(m => m.ItemID == id);
 
-            if (Order == null)
+            if (Item == null)
             {
                 return NotFound();
             }
-           ViewData["CustomerID"] = new SelectList(_context.Set<Customer>(), "CustomerID", "CustomerID");
-           ViewData["ItemID"] = new SelectList(_context.Set<Item>(), "ItemID", "ItemID");
             return Page();
         }
 
@@ -52,7 +48,7 @@ namespace DeliveryCart2.Pages_Orders
                 return Page();
             }
 
-            _context.Attach(Order).State = EntityState.Modified;
+            _context.Attach(Item).State = EntityState.Modified;
 
             try
             {
@@ -60,7 +56,7 @@ namespace DeliveryCart2.Pages_Orders
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!OrderExists(Order.OrderID))
+                if (!ItemExists(Item.ItemID))
                 {
                     return NotFound();
                 }
@@ -73,9 +69,9 @@ namespace DeliveryCart2.Pages_Orders
             return RedirectToPage("./Index");
         }
 
-        private bool OrderExists(int id)
+        private bool ItemExists(int id)
         {
-            return _context.Order.Any(e => e.OrderID == id);
+            return _context.Item.Any(e => e.ItemID == id);
         }
     }
 }

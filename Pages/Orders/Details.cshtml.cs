@@ -19,7 +19,7 @@ namespace DeliveryCart2.Pages_Orders
             _context = context;
         }
 
-        public Order Order { get; set; }
+        public Item Item { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -28,11 +28,9 @@ namespace DeliveryCart2.Pages_Orders
                 return NotFound();
             }
 
-            Order = await _context.Order
-                .Include(o => o.Customer)
-                .Include(o => o.Item).FirstOrDefaultAsync(m => m.OrderID == id);
+            Item = await _context.Item.FirstOrDefaultAsync(m => m.ItemID == id);
 
-            if (Order == null)
+            if (Item == null)
             {
                 return NotFound();
             }

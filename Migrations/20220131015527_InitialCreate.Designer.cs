@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DeliveryCart2.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220130233102_InitialCreate")]
+    [Migration("20220131015527_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -253,6 +253,10 @@ namespace DeliveryCart2.Migrations
                     b.Property<int>("ManagerID")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("pwd")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.HasDiscriminator().HasValue("Manager");
                 });
 
@@ -289,7 +293,7 @@ namespace DeliveryCart2.Migrations
             modelBuilder.Entity("Deliverycart2.Models.Shopper", b =>
                 {
                     b.HasOne("Deliverycart2.Models.Manager", "Manager")
-                        .WithMany("Shoppers")
+                        .WithMany("Shopper")
                         .HasForeignKey("ManagerShopperID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -330,7 +334,7 @@ namespace DeliveryCart2.Migrations
 
             modelBuilder.Entity("Deliverycart2.Models.Manager", b =>
                 {
-                    b.Navigation("Shoppers");
+                    b.Navigation("Shopper");
                 });
 #pragma warning restore 612, 618
         }
