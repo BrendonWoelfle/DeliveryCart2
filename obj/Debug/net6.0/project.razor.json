@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\DeliveryCart2.csproj",
+  "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\DeliveryCart2.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,68 +16298,78 @@
   "RootNamespace": "DeliveryCart2",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Orders\\Index.cshtml",
-      "TargetPath": "Pages\\Orders\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Orders\\Details.cshtml",
-      "TargetPath": "Pages\\Orders\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Orders\\Edit.cshtml",
-      "TargetPath": "Pages\\Orders\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Orders\\Cust.cshtml",
-      "TargetPath": "Pages\\Orders\\Cust.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Orders\\Delete.cshtml",
-      "TargetPath": "Pages\\Orders\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Error.cshtml",
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\Orders\\Create.cshtml",
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Orders\\Details.cshtml",
+      "TargetPath": "Pages\\Orders\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Orders\\Delete.cshtml",
+      "TargetPath": "Pages\\Orders\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\DeliveryCartTests\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "DeliveryCartTests\\Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\DeliveryCartTests\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "DeliveryCartTests\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Orders\\Create.cshtml",
       "TargetPath": "Pages\\Orders\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\cward\\Documents\\Tests\\DeliveryCart2\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Orders\\Cust.cshtml",
+      "TargetPath": "Pages\\Orders\\Cust.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Orders\\Edit.cshtml",
+      "TargetPath": "Pages\\Orders\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Orders\\Index.cshtml",
+      "TargetPath": "Pages\\Orders\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bwoel\\OneDrive\\Desktop\\CIDM-4390 !!!!!\\DeliveryCartFinal\\DeliveryCart2\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
